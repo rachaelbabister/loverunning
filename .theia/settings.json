@@ -1,0 +1,5 @@
+{
+    "css.format.enable": false,
+    "css.format.newlineBetweenSelectors": false,
+    "editor.formatOnSave": false
+}
