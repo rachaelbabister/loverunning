@@ -168,29 +168,29 @@ main {
 }
 
 /* Meet up times section */
-    #times {
+#times {
     background: url("../images/dublin-city.webp") no-repeat center/cover;
     /* Handles responsively without the need for a media query */
     display: flex;
     flex-wrap: wrap;
-    }
+}
 
-    #times div {
-        color: #fafafa;
-        background-color: rgba(0, 0, 0, .6);
-        padding: 15px;
-        text-align: center;
-        /* This will not wrap on screens of less than 400px wide. Each div will expand to fill the available space on its row */
-        flex-basis: 200px;
-        flex-grow: 1;
-        /* Creates a grid of meetup time divs over the background image */
-        border: 2px solid #ffffff;
-    }
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide. Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid #ffffff;
+}
 
-    #times h3 {
-        /* Override the heading colour set in general styles */
-        color: #fafafa;
-    }
+#times h3 {
+    /* Override the heading colour set in general styles */
+    color: #fafafa;
+}
 
 /* Gallery page */
 #photos img {
@@ -213,11 +213,11 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color:rgba(60, 60, 60, .6);
+    background-color: rgba(60, 60, 60, .6);
     padding: 30px;
 }
 
-#signup-form> h2 {
+#signup-form>h2 {
     color: #fafafa;
     padding-bottom: 20px;
 }
@@ -359,7 +359,7 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
-    
+
 }
 
 
@@ -378,29 +378,30 @@ main {
 
 /* Large devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+
     /* Reasons section */
-   #benefits {
-    display: flex;
-    flex-direction: row;
-   } 
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
 
-   #benefits>div {
-    flex: 1;
-   }
+    #benefits>div {
+        flex: 1;
+    }
 
-   #benefits-image {
-    order: 0;
-   }
+    #benefits-image {
+        order: 0;
+    }
 
-   #benefits-mental {
-    order: 1;
-   }
+    #benefits-mental {
+        order: 1;
+    }
 
-   #benefits-mental>div {
-    align-self: flex-start;
-   }
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
 
-   #benefits-physical>div {
-    align-self: flex-end;
-   }
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
 }
